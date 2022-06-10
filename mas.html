@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div id="linea"></div>
+    <div id="header">
+        <div id="centro1">
+            
+            <div id="logo">
+                <!--<h1>--> <a href="index.html">  <img src="img/logo.png" width="65" height="65"><!--Escuela Secundaria Tecnica No.47</h1>-->
+                </a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="informacion.html">Informacion</a></li>  
+                    <li><a href="mas.html">Más</a></li>  
+                </ul>
+            </div>
+        </div>
+    </div> <!--Termina el header-->
+    
+      
+    <div id="texto">
+        <br>
+        <div>
+            <center>
+            <h2>Envianos tu opinión</h2> <br> <br>
+            </center>
+            <center>
+                <img src="img/correo.png" alt="" width="150" height="100"> <br><br> <!--Imagen añadida-->
+            </center>
+
+            <form action="mailto:colabora@desarrolloweb.com" method="post" enctype="text/plain"> 
+                Nombre <input type="text" name="nombre" size="30" maxlength="100"> 
+                <br> <br>
+                Email <input type="text" name="email" size="25" maxlength="100" value="@"> 
+                <br>  <br>
+                Sexo 
+                <br> 
+                <input type="radio" name="sexo" value="Varon" checked> Hombre 
+                <br> 
+                <input type="radio" name="sexo" value="Hembra"> Mujer 
+                <br> 
+                <br> 
+                ¿Que te parece nuestra institución?
+                <br> <br>
+                <select name="utilizacion"> 
+                    <option value="1">Excelente 
+                    <option value="2">Bueno
+                    <option value="3">Malo
+                </select> 
+                <br> 
+                <br> 
+                ¿Cual tecnologías te interesa más?
+                <br> <br>
+                <select name="utilizacion"> 
+                    <option value="1">Computacion 
+                    <option value="2">Apicultura
+                    <option value="3">Ganaderia
+                    <option value="3">Agricultura
+                </select> <br><br>
+               
+                ¿Que calificacion le darias a los docentes?
+                <br> <br>
+                <select name="utilizacion"> 
+                    <option value="1">Excelente 
+                    <option value="2">Bueno
+                    <option value="3">Malo
+                </select> 
+                <br> <br>
+                Comentarios sobre su satisfacción personal 
+                <br> <br>
+                <textarea cols="30" rows="7" name="comentarios"></textarea> 
+                <br> 
+                <br> 
+            <center>
+                <input type="submit" value="Enviar formulario"> 
+                <br> 
+                <br> 
+                <input type="Reset" value="Borrar todo"> 
+                </form>
+            </center>
+        
+    </div>
+    <br>
+    
+    </div>  
+                <br>
+    <footer class="footer">
+        <h4>© Copyright 2021. Hecho por Juan Carlos Ruperto Zarate</h4>
+    </footer>
+</body>
+</html>
